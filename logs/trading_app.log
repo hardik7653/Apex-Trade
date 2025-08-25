@@ -1,0 +1,45 @@
+2025-08-25 12:36:35,944 - __main__ - INFO - Starting Trading Bot Application...
+2025-08-25 12:36:35,967 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.102.5.238:5000
+2025-08-25 12:36:35,967 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 12:52:53,023 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:52:53] "GET /api/health HTTP/1.1" 200 -
+2025-08-25 12:52:55,088 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:52:55] "[33mPOST /api/connect HTTP/1.1[0m" 404 -
+2025-08-25 12:52:57,146 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:52:57] "[33mGET /api/klines/BTCUSDT/1h/100 HTTP/1.1[0m" 404 -
+2025-08-25 12:57:47,789 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:57:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-25 12:57:47,931 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 12:57:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-25 13:15:42,675 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 13:15:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-25 13:15:42,841 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 13:15:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-25 13:18:06,654 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 13:18:06] "GET /api/health HTTP/1.1" 200 -
+2025-08-25 13:18:08,702 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 13:18:08] "[33mPOST /api/connect HTTP/1.1[0m" 404 -
+2025-08-25 13:18:10,767 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 13:18:10] "[33mGET /api/klines/BTCUSDT/1h/100 HTTP/1.1[0m" 404 -
+2025-08-25 13:23:11,964 - __main__ - INFO - Starting Trading Bot Application...
+2025-08-25 13:23:11,969 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.102.5.238:5000
+2025-08-25 13:23:11,969 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 13:24:20,122 - __main__ - INFO - Starting Trading Bot Application...
+2025-08-25 13:24:20,135 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.102.5.238:5000
+2025-08-25 13:24:20,135 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 13:27:49,255 - __main__ - INFO - Starting Trading Bot Application...
+2025-08-25 13:27:49,300 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.102.5.238:5000
+2025-08-25 13:27:49,302 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 13:28:45,158 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 13:28:45] "GET / HTTP/1.1" 200 -
+2025-08-25 13:28:45,294 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 13:28:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-25 14:36:48,892 - __main__ - INFO - Starting Trading Bot Application...
+2025-08-25 14:36:48,899 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.102.5.238:5000
+2025-08-25 14:36:48,899 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 14:37:34,983 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 14:37:34] "GET / HTTP/1.1" 200 -
+2025-08-25 14:37:35,151 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 14:37:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-25 14:37:57,699 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 14:37:57] "GET /api/health HTTP/1.1" 200 -

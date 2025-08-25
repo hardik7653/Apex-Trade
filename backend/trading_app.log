@@ -1,0 +1,10 @@
+2025-08-25 00:16:58,899 - __main__ - INFO - Starting Trading Application Backend...
+2025-08-25 00:16:58,962 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.102.5.238:5000
+2025-08-25 00:16:58,962 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 00:16:58,963 - werkzeug - INFO -  * Restarting with stat
+2025-08-25 00:17:00,418 - __main__ - INFO - Starting Trading Application Backend...
+2025-08-25 00:17:00,432 - werkzeug - WARNING -  * Debugger is active!
+2025-08-25 00:17:00,443 - werkzeug - INFO -  * Debugger PIN: 110-017-573

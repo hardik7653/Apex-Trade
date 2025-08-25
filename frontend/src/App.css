@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0B0E11;
+  color: #ffffff;
+}
+
+code {
+  font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E2026;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #474A57;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5A5D6A;
+}
+
+/* Custom animations */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(240, 185, 11, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(240, 185, 11, 0.8);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Trading specific styles */
+.order-book-row {
+  transition: background-color 0.2s ease;
+}
+
+.order-book-row:hover {
+  background-color: rgba(240, 185, 11, 0.1);
+}
+
+.buy-row {
+  border-left: 3px solid #0ECB81;
+}
+
+.sell-row {
+  border-left: 3px solid #F6465D;
+}
+
+/* Chart container */
+.chart-container {
+  background: #1E2026;
+  border: 1px solid #2A2D35;
+  border-radius: 8px;
+}
+
+/* Form inputs */
+.form-input {
+  background: #1E2026;
+  border: 1px solid #2A2D35;
+  color: #ffffff;
+  transition: border-color 0.2s ease;
+}
+
+.form-input:focus {
+  border-color: #F0B90B;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(240, 185, 11, 0.2);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #F0B90B 0%, #F7931A 100%);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(240, 185, 11, 0.3);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #0ECB81 0%, #00D4AA 100%);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #F6465D 0%, #FF6B7A 100%);
+}
+
+/* Status indicators */
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.status-live {
+  background: #0ECB81;
+  box-shadow: 0 0 8px rgba(14, 203, 129, 0.5);
+}
+
+.status-testnet {
+  background: #F7931A;
+  box-shadow: 0 0 8px rgba(247, 147, 26, 0.5);
+}
+
+.status-disconnected {
+  background: #F6465D;
+  box-shadow: 0 0 8px rgba(246, 70, 93, 0.5);
+}
