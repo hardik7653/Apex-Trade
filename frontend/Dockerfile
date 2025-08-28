@@ -1,10 +1,10 @@
-# Stage 1: build the React app
+# Stage 1: Build the React app
 FROM node:18-alpine AS builder
 
 # Create app directory
 WORKDIR /app
 
-# Copy package files and install dependencies (including dev dependencies)
+# Copy package files and install all dependencies (including dev dependencies)
 COPY package*.json ./
 RUN npm install
 
@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-# Stage 2: serve the built app using 'serve'
+# Stage 2: Serve the built app using 'serve'
 FROM node:18-alpine AS production
 
 # Install a simple HTTP server for serving static files
@@ -24,7 +24,7 @@ WORKDIR /app
 # Copy built files from the previous stage
 COPY --from=builder /app/build /app/build
 
-# The application listens on port 3000
+# Expose port 3000 (or use Railway’s $PORT variable)
 EXPOSE 3000
 
 # Command to run the static server
