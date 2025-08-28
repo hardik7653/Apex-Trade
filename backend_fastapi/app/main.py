@@ -1,7 +1,7 @@
 import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import health, klines, trade, signals, trades_list, binance, backtesting
+from app.routes import health, klines, trade, signals, trades_list, binance, backtesting, metrics
 # from app.routes import predict, train, model_status  # Temporarily disabled due to ML import issues
 from app.db import init_db, create_db_and_tables, seed_data_if_needed
 from dotenv import load_dotenv
@@ -32,3 +32,4 @@ app.include_router(trade.router, prefix="/trade", tags=["trade"])
 app.include_router(trades_list.router, prefix="/trades", tags=["trades"])
 app.include_router(binance.router, prefix="/binance", tags=["binance"])
 app.include_router(backtesting.router, prefix="/backtesting", tags=["backtesting"])
+app.include_router(metrics.router, prefix="/trades", tags=["metrics"])
